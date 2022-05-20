@@ -1,7 +1,7 @@
 $(document).ready(() => {
 
   let wifiClient = '';
-  let socket = io.connect('//socketio0.herokuapp.com', {
+  let socket = io.connect('/', {
     transports: ['websocket'],
     upgrade: false,
     rejectUnauthorized: false,
